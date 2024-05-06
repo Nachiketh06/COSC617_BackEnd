@@ -8,7 +8,7 @@
     "server": "nodemon server",
 
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "mkdir -p build && cp -r api models routes utils server.js package.json build/"
+    "build": "mkdir -p build && cp -r models routes server.js package.json build/"
   },
   "author": "Brad Traversy",
   "license": "MIT",
